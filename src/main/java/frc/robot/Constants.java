@@ -8,5 +8,11 @@ public final class Constants {
         public static final int CONTROLLER_PORT = 2; // usb port
         public static final int PISTON_BUTTON = 1; // xbox
     }
+
+    public static final class MotorConstants {
+        public static final int KRAKEN_MOTOR = 15; // Update this to match your Kraken motor's CAN ID
+        public static final double CURRENT_LIMIT = 40.0; // Amps
+        public static final double DEADBAND = 0.1;
+    }
 }
 
